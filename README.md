@@ -6,4 +6,8 @@ After that, we use yolo object detection to detect moving objects in normal vide
 
 First of all, we convert fisheye lens video to image frames with runing "video_to_frame.py". Then we run "defish.py" to convert fisheye lens image frames to normal image frames.
 
-Finally we run "frame_to_video.py" to create output video.
+Finally we run "frame_to_video.py" to create output video called "video.mp4".
+
+For object detection, we run object "detection.ipynb" on "video.mp4" and detect moving objects in the normal video.
+
+
