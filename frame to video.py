@@ -3,7 +3,7 @@ import numpy as np
 import os
 from os.path import isfile, join
 
-pathIn = './final/'
+pathIn = './frames/'
 pathOut = 'video.mp4'
 fps = 2
 
